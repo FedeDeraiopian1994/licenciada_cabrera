@@ -610,7 +610,7 @@ body {
   }
 
   .boton-ver-mas {
-    margin-left: 36%;
+    margin-left: 40%;
     font-size: larger;
   }
 
@@ -618,6 +618,22 @@ body {
     margin-left: 0; /* Centra el botón */
     width: 100%; /* Ajusta el ancho del botón */
     margin-top: 10px; /* Ajusta el margen superior */
+    font-size: larger;
+  }
+}
+
+@media (max-width: 900px) {
+  .tarjeta-consultorio .contenido-tarjeta {
+      flex-direction: column; /* Cambia a disposición vertical */
+  }
+
+  #consultorios p {
+      margin-bottom: 50px; /* Reduce el margen */
+      font-size: 22px;
+  }
+
+  .boton-ver-mas {
+    margin-left: 40%;
     font-size: larger;
   }
 }
