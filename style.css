@@ -184,6 +184,7 @@ body {
 }
 
 
+
 .image-container {
   position: relative;
   display: inline-block;
@@ -343,13 +344,13 @@ body {
   }
 
   .contact-icons a i {
-      padding: 5px;
+      padding: 2px;
       font-size: 1.4em;
       margin-bottom: -5%;
   }
 
   .habla {
-      padding: 10px 15px;
+      padding: 8px 13px;
       font-size: large;
   }
 
@@ -363,6 +364,57 @@ body {
   }
 }
 
+@media (max-width: 580px) {
+  .text-overlay {
+      margin-top: -180px;
+      left: 50%;
+      bottom: 12px;
+      transform: translateX(-50%);
+      width: 85%;
+      padding: 8px 13px;
+  }
+
+  .text-overlay h1 {
+      font-size: 2em;
+      margin-top: 2.5%;
+      margin-bottom: 5%;
+  }
+
+  .text-overlay p {
+      font-size: 13px;
+      margin-bottom: 20%;
+  }
+
+  .contact-icons {
+      gap: 20px;
+      margin-top: -55px;
+  }
+
+  .contact-icons a i {
+      padding: 5px;
+      font-size: 1.4em;
+      margin-bottom: -1%;
+  }
+}
+
+@media (max-width: 465px) {
+
+  .text-overlay p {
+      font-size: 13px;
+      margin-bottom: 21%;
+  }
+
+  .contact-icons {
+      gap: 20px;
+      margin-top: -45px;
+  }
+
+  .contact-icons a i {
+      padding: 3px;
+      font-size: 1.4em;
+      margin-bottom: 3%;
+  }
+}
 
 
 #sobre-mi {
@@ -463,7 +515,7 @@ body {
   #sobre-mi {
       padding: 22px; /* Reduce el padding */
       width: 90%;
-      margin-left: -3%;
+      margin-left: -5%;
   }
 }
 
@@ -686,7 +738,7 @@ body {
   }
 }
 
-@media (max-width: 478px) {
+@media (max-width: 495px) {
 
   #consultorios {
     width: 100%; /* Asegura que ocupe todo el ancho */
@@ -726,6 +778,15 @@ body {
       width: 155%; /* Ajusta este valor según sea necesario */
       margin-left: -56px;
   }
+}
+
+@media (max-width: 385px) {
+
+  #consultorios {
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    max-width: 155px; /* Ajusta este valor según sea necesario */
+    margin: 0 auto; /* Centra el contenedor */
+}
 }
 
 
@@ -858,10 +919,20 @@ body {
     margin: 10px auto;
   }
 }
+
+@media (max-width: 540px) {
+  #articulos-essen {
+      width: 100%;
+      max-width: 250px;
+      margin: 0 auto;
+      padding: 20px; /* Ajusta el padding */
+  }
+  
+}
 @media (max-width: 380px) {
   #articulos-essen {
       width: 100%;
-      max-width: 200px;
+      max-width: 210px;
       margin: 0 auto;
       padding: 20px; /* Ajusta el padding */
   }
