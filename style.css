@@ -521,7 +521,7 @@ body {
 
 #consultorios {
   padding: 60px;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
 }
 
 #consultorios h2 {
@@ -748,7 +748,7 @@ body {
 
   #consultorios h2 {
       margin-bottom: 80px;
-      margin-left: -20%;
+      margin-left: 5%;
   }
 
   #consultorios h3 {
@@ -793,7 +793,7 @@ body {
 /* Estilos generales */
 #articulos-essen {
   padding: 40px;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
 }
 
 .contenedor-articulos {
